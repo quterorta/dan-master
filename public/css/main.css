@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+/* HEADER */
+.header-mobile {
+    display: none;
+}
+.header {
+    background: #ddd;
+    padding: 5px 2.5%;
+}
+
+.header-logo-container img {
+    width: 75%;
+    opacity: 0.85;
+    transition: all 0.25s ease;
+}
+
+.header-logo-container img:hover {
+    opacity: 1;
+    transform: scale(1.025);
+}
+
+.header-link-container {
+    text-align: right;
+}
+
+.header-link-container ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header-link-container ul {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.header-link-container a {
+    display: inline-block;
+    font-size: 1rem;
+    color: #0f1e2d;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.25s ease;
+}
+.header-link-container a:hover {
+    border-bottom: 2px solid black;
+}
+/* --------------------------- END HEADER --------------------------- */
+
+
+
+/* --------------------------- FIRST BLOCK --------------------------- */
+#firstBlockCarousel .carousel-inner {
+    height: 44vw;
+}
+/* --------------------------- END FIRST BLOCK --------------------------- */
+
+
+
+/* --------------------------- SECOND BLOCK (DESPRE NOI) --------------------------- */
+.despre-noi-block {
+    padding: 5% 5% 0 5%;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 50.75%, #fff 51%, #fff 100%);
+}
+
+.block-header {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 3rem;
+    border-bottom: 5px solid black;
+    color: #0f1e2d;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.despre-noi-text-container {
+    padding: 10px;
+}
+
+.despre-noi-text-container p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.despre-noi-image-container {
+    padding: 10px;
+}
+
+.despre-noi-image-container img {
+    width: 100%;
+}
+/* --------------------------- END SECOND BLOCK (DESPRE NOI) --------------------------- */
+
+
+
+/* --------------------------- THIRD BLOCK (RECOMENDED BLOCK) --------------------------- */
+.recommended-block {
+    padding: 5% 5% 0 5%;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 50.75%, #fff 51%, #fff 100%);
+}
+
+.recomended-block-grid-box {
+    padding: 2.5% 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10% 5%;
+    position: relative;
+}
+
+.recommended-product-card {
+    transition: all 0.25s ease;
+    position: relative;
+}
+
+.recommended-product-card:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.recommended-product-card-image-block {
+    height: 15vw;
+}
+
+.recommended-product-card-image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recommended-product-card-text-block {
+    text-align: center;
+}
+
+.recommended-product-card-name {
+    color: #0f1e2d;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 20px 0 0 0;
+}
+.recommended-product-card-name a {
+    color: #0f1e2d;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+.recommended-product-card-name a:hover {
+    color: black;
+    box-shadow: 0px 2px 0 0 black, 0px -2px 0 0 black;
+}
+
+.recommended-product-card-articul {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: black;
+    margin: 0;
+}
+
+.recommended-product-card-button {
+    text-align: center;
+}
+
+.recommended-product-card-button a {
+    display: inline-block;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-decoration: none;
+    background-color: #0f1e2d;
+    border: none;
+    padding: 5px 0;
+    width: 100%;
+    margin: 20px 0 0 0;
+    transition: all 0.25s ease;
+}
+.recommended-product-card-button a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #0f1e2d;
+    box-shadow: 0px -5px 0 0 #0f1e2d, 0px 5px 0 0 #0f1e2d;
+}
+/* --------------------------- END THIRD BLOCK (RECOMENDED BLOCK) --------------------------- */
+
+
+
+/* --------------------------- FOURTH BLOCK (ADVANTAGES BLOCK) --------------------------- */
+.advantages-block {
+    padding: 5% 2.5% 0 2.5%;
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 50.75%, #fff 51%, #fff 100%);
+}
+
+.advantages-block h2 {
+    margin-bottom: 5%;
+}
+
+.advantages-container {
+    background-color: #0f1e2d;
+    padding: 2.5%;
+    border: 3px solid black;
+    transition: all 0.25s ease;
+}
+.advantages-container:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.advantages-item-image img {
+    width: 100%;
+}
+
+.advantages-item-text p {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* --------------------------- END FOURTH BLOCK (ADVANTAGES BLOCK) --------------------------- */
+
+
+
+/* --------------------------- FIFTH BLOCK (CONTACT BLOCK) --------------------------- */
+.contact-block {
+    padding: 5% 2.5%;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 50.75%, #fff 51%);
+}
+
+.contact-links-container {
+    margin-top: 5%;
+    background: #0f1e2d;
+    padding: 5% 2.5%;
+    text-align: center;
+    border: 3px solid black;
+    transition: all 0.25s ease;
+}
+.contact-links-container:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-links-container a {
+    display: inline-block;
+    margin: 0 2.5%;
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    transition: all 0.25s ease;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.contact-links-container a i {
+    font-size: 2rem;
+}
+
+.border-icon-link-phone:hover {
+    border-bottom: 2px solid black;
+}
+
+.border-icon-link-viber:hover {
+    border-bottom: 2px solid #59267c;
+}
+
+.border-icon-link-whatsapp:hover {
+    border-bottom: 2px solid #43d854;
+}
+
+.border-icon-link-facebook:hover {
+    border-bottom: 2px solid #3b5998;
+}
+
+/* --------------------------- END FIFTH BLOCK (CONTACT BLOCK) --------------------------- */
+
+
+
+/*FOOTER*/
+.footer {
+    background: #ddd;
+    padding: 5px 2.5%;
+}
+
+.footer-logo-container img {
+    width: 75%;
+    opacity: 0.85;
+    transition: all 0.25s ease;
+}
+
+.footer-logo-container img:hover {
+    opacity: 1;
+    transform: scale(1.025);
+}
+
+.footer-contact-container {
+    text-align: center;
+}
+
+.footer-contact-container ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.footer-contact-container ul {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.footer-contact-container a {
+    color: #0f1e2d;
+    display: inline-block;
+    font-size: 2.5em;
+    margin: 0 7px;
+    transition: all 0.25s ease;
+}
+.icon-link-phone:hover {
+    color: #000;
+    transform: scale(1.15);
+}
+.icon-link-viber:hover {
+    color: #59267c;
+    transform: scale(1.15);
+}
+.icon-link-whatsapp:hover {
+    color: #43d854;
+    transform: scale(1.15);
+}
+.icon-link-facebook:hover {
+    color: #3b5998;
+    transform: scale(1.15);
+}
+
+.footer-copyright-container {
+    text-align: center;
+}
+
+.footer-copyright-container p {
+    font-weight: 400;
+    color: #0b1923;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.footer-copyright-container a {
+    color: #0b1923;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1px 5px;
+    border: 2px solid #0b1923;
+    border-radius: 50px;
+    transition: all 0.25s ease;
+}
+.footer-copyright-container a:hover {
+    color: black;
+    transform: scale(1.1);
+}
+/* --------------------------- END FOOTER --------------------------- */
+
+
+
+/* --------------------------- CATALOG PAGE --------------------------- */
+.catalog-block-grid-box {
+    padding: 2.5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    position: relative;
+}
+
+.catalog-block {
+    padding: 5% 2.5% 10% 2.5%;
+    background: linear-gradient(-40deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 50.75%, #fff 51%, #fff 100%);
+}
+.catalog-block h2 {
+    margin-bottom: 5%;
+}
+/* --------------------------- END CATALOG PAGE --------------------------- */
+
+
+
+/* --------------------------- PRODUCT PAGE --------------------------- */
+.product-view-block {
+    padding: 2.5% 5% 5% 5%;
+    min-height: 90vh;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 40.75%, #fff 41%, #fff 100%);
+}
+
+.product-view-image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-view-block-title {
+    font-weight: 800;
+    font-size: 3rem;
+    color:#0f1e2d;
+    text-align: center;
+}
+.product-view-block-article {
+    color: black;
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0;
+}
+
+.product-view-block-description {
+    margin: 50px 0;
+    color:#000;
+    font-weight: 400;
+    font-size: 1.1rem;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 2.5%;
+}
+
+.product-view-block-description b {
+    color:#0f1e2d;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.product-view-block-contact-links-container {
+    margin: 50px 0;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 2.5%;
+}
+
+.product-view-block-contact-links-container h3 {
+    color:#0f1e2d;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align:center;
+}
+
+.product-view-contact-links-block {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.product-view-contact-links-block a {
+    font-size: 2rem;
+    color: #0f1e2d;
+    margin: 0 1.25%;
+    transition: all 0.25s ease;
+}
+/* --------------------------- END PRODUCT PAGE --------------------------- */
+
+
+
+/* --------------------------- PAGINATION --------------------------- */
+.product-pagination {
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.product-pagination ul li {
+    display: inline;
+    list-style: none;
+}
+
+.product-pagination ul {
+    padding: 0;
+    margin: 0;
+}
+
+.product-pagination li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0f1e2d;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 0;
+    width: 26px !important;
+}
+
+.product-pagination li.active {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #0f1e2d;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 0;
+    width: 26px !important;
+}
+/* --------------------------- END PAGINATION --------------------------- */

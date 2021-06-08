@@ -1,0 +1,222 @@
+@media (max-width:600px) {
+
+/* HEADER */
+.header {
+    display: none;
+}
+.header-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #ddd;
+    padding: 3px 2.5%;
+    align-items: center;
+}
+.header-logo-container-mobile img {
+    width: 100%;
+}
+.header-link-mobile {
+    text-align: right;
+}
+.header-link-mobile .dropdown .btn {
+    font-size: 25px;
+    color:#0f1e2d;
+}
+.dropdown-menu {
+    background: #ddd im !important;
+    text-align: center;
+    padding: 10px 0;
+}
+.dropdown-menu li {
+    margin: 10px 0;
+    padding: 0 5px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+.dropdown-menu li a {
+    color: #0b1923;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* --------------------------- END HEADER --------------------------- */
+
+
+
+/* --------------------------- FIRST BLOCK --------------------------- */
+#firstBlockCarousel .carousel-inner {
+    height: 44vw;
+}
+/* --------------------------- END FIRST BLOCK --------------------------- */
+
+
+
+/* --------------------------- SECOND BLOCK (DESPRE NOI) --------------------------- */
+.despre-noi-text-container {
+    order: 2;
+}
+.despre-noi-image-container {
+    order: 1;
+}
+
+.block-header {
+    font-size: 2rem;
+}
+/* --------------------------- END SECOND BLOCK (DESPRE NOI) --------------------------- */
+
+
+
+/* --------------------------- THIRD BLOCK (RECOMENDED BLOCK) --------------------------- */
+.recommended-block {
+    padding: 5% 10px 0 10px;
+}
+.recomended-block-grid-box {
+    grid-template-columns: 1fr;
+    grid-gap: 20px 0;
+}
+.recommended-product-card-image-block {
+    height: 30vh;
+}
+/* --------------------------- END THIRD BLOCK (RECOMENDED BLOCK) --------------------------- */
+
+
+
+/* --------------------------- FOURTH BLOCK (ADVANTAGES BLOCK) --------------------------- */
+.advantages-block {
+    padding: 5% 5% 0 5%;
+}
+.advantages-block h2 {
+    margin: 15% 0 10% 0;
+}
+.advantages-container {
+    text-align: center;
+}
+.advantages-item-image img {
+    width: 150px;
+}
+.advantages-item-text p {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* --------------------------- END FOURTH BLOCK (ADVANTAGES BLOCK) --------------------------- */
+
+
+
+/* --------------------------- FIFTH BLOCK (CONTACT BLOCK) --------------------------- */
+.contact-block {
+    padding: 5% 2.5%;
+}
+.contact-block h2 {
+    margin: 15% 0 10% 0;
+}
+.contact-links-container a {
+    display: block;
+    margin: 2.5% 0;
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+/* --------------------------- END FIFTH BLOCK (CONTACT BLOCK) --------------------------- */
+
+
+
+/*FOOTER*/
+.footer {
+    padding: 5px 5%;
+}
+.footer-logo-container {
+    order: 1;
+}
+.footer-contact-container {
+    order: 2;
+}
+.footer-logo-container img {
+    width: 100%;
+    opacity: 1;
+}
+.footer-contact-container a {
+    margin: 0 10px;
+}
+.footer-copyright-container {
+    order: 3;
+}
+/* --------------------------- END FOOTER --------------------------- */
+
+
+
+/* --------------------------- CATALOG PAGE --------------------------- */
+.catalog-block-grid-box {
+    grid-template-columns: 1fr;
+}
+/* --------------------------- END CATALOG PAGE --------------------------- */
+
+
+
+/* --------------------------- PRODUCT PAGE --------------------------- */
+.product-view-block-title {
+    font-size: 2rem;
+}
+.product-view-block-article {
+    font-size: 1rem;
+}
+
+.product-view-block-description {
+    margin: 25px 0;
+    font-size: 1.25rem;
+}
+.product-view-block-contact-links-container {
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+    padding: 2.5%;
+}
+.product-view-block-contact-links-container h3 {
+    font-size: 1.5rem;
+}
+.product-view-contact-links-block {
+    margin: 15px 0 0 0;
+}
+/* --------------------------- END PRODUCT PAGE --------------------------- */
+
+
+
+/* --------------------------- PAGINATION --------------------------- */
+.product-pagination {
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+}
+
+.product-pagination ul li {
+    display: inline;
+    list-style: none;
+}
+
+.product-pagination ul {
+    padding: 0;
+    margin: 0;
+}
+
+.product-pagination li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0f1e2d;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 0;
+    width: 26px !important;
+}
+
+.product-pagination li.active {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #0f1e2d;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 5px 0;
+    width: 26px !important;
+}
+/* --------------------------- END PAGINATION --------------------------- */
+
+}

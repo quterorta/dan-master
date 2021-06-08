@@ -1,0 +1,8 @@
+.test-style {
+    background-color: grey;
+}
+
+.test-style p {
+    text-align: center;
+    color: green;
+}
